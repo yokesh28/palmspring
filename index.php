@@ -15,4 +15,13 @@
 
 	</div>
 </body> 
+<script type="text/javascript">
+
+$("<img />").attr('src', 'img/hp.jpg').load(function() {
+
+
+	loadMenu();
+
+});
+</script>
 </html>
