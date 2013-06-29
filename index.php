@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Palm Spring</title>
+<title>Palm Spring.....</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery-1.10.1.min.js"></script>
