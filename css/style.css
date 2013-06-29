@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+body,a,img,div,span {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url("../img/menu_bg.png");
+	/* Preserve aspet ratio */
+	min-width: 16%;
+	min-height: 100%;
+	left: -250px;
+	opacity:0;
+}
+
+.logo_bg {
+	background: white;
+	position: fixed;
+	top: 40%;
+	width: 16%;
+}
+
+header .logo_bg .logo {
+	margin: 0 auto;
+	width: 80%;
+	padding: 6px 0px;
+}
+
+.container {
+	position: relative;
+}
+
+.hm_back {
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+}
