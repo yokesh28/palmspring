@@ -8,7 +8,11 @@
 <script src="js/script.js"></script>
 </head>
 <body>
+
 	<div class="container">
+	<div id="preloader">
+	
+	</div>
 		<img src="img/hp.jpg" alt="Palm Spring" class="hm_back">
 
 		<?php include 'header.php';?>
@@ -17,7 +21,7 @@
 </body> 
 <script type="text/javascript">
 
-$("<img />").attr('src', 'img/hp.jpg').load(function() {
+$(".hm_back").attr('src', 'img/hp.jpg').load(function() {
 
 
 	loadMenu();
