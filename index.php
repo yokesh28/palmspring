@@ -21,7 +21,7 @@
 </body>
 <script type="text/javascript">
 
-$(".hm_back").attr('src', 'img/hp.jpg').load(function() {
+$(".container img").attr('src', 'img/hp.jpg').load(function() {
  hidePreloader();
 
 	loadMenu();
