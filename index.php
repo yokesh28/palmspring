@@ -28,6 +28,17 @@
 				<li>Contact us</li>
 			</ul>
 		</div>
+		<div class="colors">
+		<ul>
+				<li>&nbsp</li>
+				<li>&nbsp</li>
+				<li>&nbsp</li>
+				<li>&nbsp</li>
+				<li>&nbsp</li>
+				<li>&nbsp</li>
+				<li>&nbsp</li>
+			</ul>
+		</div>
 
 
 	</div>

@@ -60,8 +60,8 @@ header .logo_bg .logo {
 	position: fixed;
 	left: 16%;
 	top: 40%;
-	width:84%;
-	margin: 16px 0px;
+	width: 84%;
+	z-index: 7;
 }
 
 .wrapper ul li {
@@ -69,9 +69,56 @@ header .logo_bg .logo {
 	float: left;
 	background: url("../img/button.png");
 	width: 14.1%;
-text-align: center;
-margin: 0px 1px;
+	text-align: center;
+	margin: 0px 1px;
 	color: white;
 	padding: 58px 0px;
 	cursor: pointer;
+}
+
+.wrapper ul li:last-child {
+	margin: 0px;
+}
+
+.colors {
+
+	position: fixed;
+	left: 16%;
+	z-index: 6;
+	display: table;
+   width: 100%;
+   
+}
+.colors ul{
+	display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.colors li{
+	list-style: none;
+	float: left;
+	
+	padding: 400px 89.9px;
+}
+.colors li:nth-child(1) {
+    background: url("../img/1.png"); 
+}
+.colors li:nth-child(2) {
+   background: url("../img/2.png");   
+}
+.colors li:nth-child(3) {
+    background: url("../img/3.png");  
+}
+.colors li:nth-child(4) {
+    background: url("../img/4.png");   
+}
+.colors li:nth-child(5) {
+    background: url("../img/5.png");   
+}
+.colors li:nth-child(6) {
+    background: url("../img/6.png");   
+}
+.colors li:nth-child(7) {
+    background: url("../img/7.png");   
 }
