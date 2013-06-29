@@ -99,7 +99,8 @@ header .logo_bg .logo {
 	list-style: none;
 	float: left;
 	
-	padding: 400px 89.9px;
+	padding: 400px 0px;
+	width: 11.96%;
 }
 .colors li:nth-child(1) {
     background: url("../img/1.png"); 
