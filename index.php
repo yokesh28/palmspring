@@ -8,21 +8,21 @@
 <script src="js/script.js"></script>
 </head>
 <body>
-
-	<div class="container">
 	<div id="preloader">
-	
+		<img src="img/logo.png" alt="Palm Spring">
 	</div>
+	<div class="container" style="display: none;">
+
 		<img src="img/hp.jpg" alt="Palm Spring" class="hm_back">
 
 		<?php include 'header.php';?>
 
 	</div>
-</body> 
+</body>
 <script type="text/javascript">
 
 $(".hm_back").attr('src', 'img/hp.jpg').load(function() {
-
+ hidePreloader();
 
 	loadMenu();
 

@@ -6,4 +6,7 @@ function loadMenu()
 	},800);
 }
 
-
+function hidePreloader(){
+	$('#preloader').fadeOut('slow');
+	$('.container').fadeIn();
+}

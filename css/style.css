@@ -50,3 +50,8 @@ header .logo_bg .logo {
 	min-width: 100%;
 	min-height: 100%;
 }
+
+#preloader{
+	margin: 20% auto;
+	width:218px;
+}
