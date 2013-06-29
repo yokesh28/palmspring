@@ -17,6 +17,19 @@
 
 		<?php include 'header.php';?>
 
+		<div class="wrapper">
+			<ul>
+				<li>Overview</li>
+				<li>Amenities</li>
+				<li>Location</li>
+				<li>Specifications</li>
+				<li>Gallery</li>
+				<li>Downloads</li>
+				<li>Contact us</li>
+			</ul>
+		</div>
+
+
 	</div>
 </body>
 <script type="text/javascript">

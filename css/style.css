@@ -8,7 +8,7 @@ body {
 	min-height: 100%;
 }
 
-body,a,img,div,span {
+body,a,img,div,span,ul,li {
 	margin: 0px;
 	padding: 0px;
 }
@@ -22,7 +22,7 @@ header {
 	min-width: 16%;
 	min-height: 100%;
 	left: -250px;
-	opacity:0;
+	opacity: 0;
 }
 
 .logo_bg {
@@ -51,7 +51,27 @@ header .logo_bg .logo {
 	min-height: 100%;
 }
 
-#preloader{
+#preloader {
 	margin: 20% auto;
-	width:218px;
+	width: 218px;
+}
+
+.wrapper {
+	position: fixed;
+	left: 16%;
+	top: 40%;
+	width:84%;
+	margin: 16px 0px;
+}
+
+.wrapper ul li {
+	list-style: none;
+	float: left;
+	background: url("../img/button.png");
+	width: 14.1%;
+text-align: center;
+margin: 0px 1px;
+	color: white;
+	padding: 58px 0px;
+	cursor: pointer;
 }
