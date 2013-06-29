@@ -6,13 +6,13 @@
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery-1.10.1.min.js"></script>
 <script src="js/script.js"></script>
-</head>     
+</head>
 <body>
-<div class="container">
-<img src="img/hp.jpg" alt="Palm Spring" class="hm_back">
+	<div class="container">
+		<img src="img/hp.jpg" alt="Palm Spring" class="hm_back">
 
-<?php include 'header.php';?>
+		<?php include 'header.php';?>
 
-</div>
+	</div>
 </body>
 </html>
