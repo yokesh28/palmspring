@@ -1,7 +1,14 @@
 @CHARSET "UTF-8";
 
+@font-face {
+	font-family: champa;
+	src: url('../font/Champagne&Limousines.ttf');
+	/* url('Sansation_Light.eot');  IE9 */
+}
+
 html {
 	height: 100%;
+	font-family: champa;
 }
 
 body {
@@ -67,7 +74,7 @@ header .logo_bg .logo {
 .wrapper ul li {
 	list-style: none;
 	float: left;
-	 background: url("../img/button.png");
+	background: url("../img/button.png");
 	width: 14.1%;
 	text-align: center;
 	margin: 0px 1px;
@@ -75,6 +82,7 @@ header .logo_bg .logo {
 	padding: 58px 0px;
 	cursor: pointer;
 	text-transform: uppercase;
+	font-weight: bolder;
 }
 
 .wrapper ul li:last-child {
@@ -128,4 +136,44 @@ header .logo_bg .logo {
 
 .colors li:nth-child(7) {
 	background: url("../img/7.png");
+}
+
+.inner .logo_bg {
+	position: static;
+	width: auto;
+}
+
+.inner {
+	width: 20%;
+	background: white;
+}
+
+.menu_inner {
+	margin-left: 70px;
+}
+
+.menu_inner li {
+	text-transform: uppercase;
+	list-style: none;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin: 30px 0px;
+	cursor: pointer;
+}
+
+.menu_inner a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu_inner a:VISITED {
+	text-decoration: none;
+	color: black;
+}
+
+.menu_inner img {
+
+	
+}
 }
