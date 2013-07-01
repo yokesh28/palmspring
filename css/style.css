@@ -67,13 +67,14 @@ header .logo_bg .logo {
 .wrapper ul li {
 	list-style: none;
 	float: left;
-	background: url("../img/button.png");
+	 background: url("../img/button.png");
 	width: 14.1%;
 	text-align: center;
 	margin: 0px 1px;
 	color: white;
 	padding: 58px 0px;
 	cursor: pointer;
+	text-transform: uppercase;
 }
 
 .wrapper ul li:last-child {
@@ -81,45 +82,50 @@ header .logo_bg .logo {
 }
 
 .colors {
-
 	position: fixed;
 	left: 16%;
 	z-index: 6;
 	display: table;
-   width: 100%;
-   
-}
-.colors ul{
-	display: table-cell;
-   text-align: center;
-   vertical-align: middle;
+	width: 100%;
 }
 
-.colors li{
+.colors ul {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.colors li {
 	list-style: none;
 	float: left;
-	
 	padding: 400px 0px;
 	width: 11.96%;
 }
+
 .colors li:nth-child(1) {
-    background: url("../img/1.png"); 
+	background: url("../img/1.png");
 }
+
 .colors li:nth-child(2) {
-   background: url("../img/2.png");   
+	background: url("../img/2.png");
 }
+
 .colors li:nth-child(3) {
-    background: url("../img/3.png");  
+	background: url("../img/3.png");
 }
+
 .colors li:nth-child(4) {
-    background: url("../img/4.png");   
+	background: url("../img/4.png");
 }
+
 .colors li:nth-child(5) {
-    background: url("../img/5.png");   
+	background: url("../img/5.png");
 }
+
 .colors li:nth-child(6) {
-    background: url("../img/6.png");   
+	background: url("../img/6.png");
 }
+
 .colors li:nth-child(7) {
-    background: url("../img/7.png");   
+	background: url("../img/7.png");
 }

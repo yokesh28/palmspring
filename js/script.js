@@ -1,12 +1,11 @@
-function loadMenu()
-{
+function loadMenu() {
 	$('header').animate({
 		left : "0",
 		opacity : "1"
-	},800);
+	}, 800);
 }
 
-function hidePreloader(){
+function hidePreloader() {
 	$('#preloader').fadeOut('slow');
 	$('.container').fadeIn();
 }

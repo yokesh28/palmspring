@@ -29,7 +29,7 @@
 			</ul>
 		</div>
 		<div class="colors">
-		<ul>
+			<ul>
 				<li>&nbsp</li>
 				<li>&nbsp</li>
 				<li>&nbsp</li>
@@ -43,7 +43,47 @@
 
 	</div>
 </body>
+<script type="text/javascript" src="js/jquery.flippy.min.js"></script>
 <script type="text/javascript">
+
+
+
+
+
+$(".wrapper li").hover( function () {
+	
+	var child=$(this).index()+1;
+	$('.colors li:nth-child('+child+')').flippy({
+	   
+	    direction:"TOP",
+	    duration:"750",
+	    onStart:function(){
+
+			 // $('.colors li:nth-child('+child+')').addClass('effect');
+		  },
+	  
+	    color_target:"none",
+	});
+
+
+	
+}, function () {
+	var child=$(this).index()+1;
+	old =child;
+	 $('.colors li:nth-child('+child+')').flippyReverse();
+
+	
+		
+		/* $('.colors li').each(function(){
+			$(this).flippyReverse();
+	}); */
+		
+	
+	
+});
+
+
+
 
 $(".container img.hm_back").attr('src', 'img/hp.jpg').load(function() {
  hidePreloader();
@@ -52,4 +92,5 @@ $(".container img.hm_back").attr('src', 'img/hp.jpg').load(function() {
 
 });
 </script>
+
 </html>
