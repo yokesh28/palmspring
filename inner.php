@@ -47,7 +47,7 @@
 		
 
 		<?php include 'header_inner.php';?>
-<<<<<<< HEAD
+
 		<div class="box" id="box1">
 		<h2>Overview </h2>
 		<p>Lorem Ipsum is simply dummy text of the
