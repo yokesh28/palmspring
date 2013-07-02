@@ -149,7 +149,7 @@ header .logo_bg .logo {
 }
 
 .menu_inner {
-	margin-left: 70px;
+	margin-left: 36px;
 }
 
 .menu_inner li {
@@ -178,6 +178,7 @@ header .logo_bg .logo {
 	text-decoration: none;
 	color: black;
 	padding:10px 30px;
+	position: relative;
 	
 }
 

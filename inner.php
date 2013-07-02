@@ -26,7 +26,8 @@
 $('.menu_inner li').click(function(){
 //$(this).css('background','url("img/amites-button.png")');
 var child=$(this).index()+1;
-disableClick();
+
+disableClick(child);
 enableClick(child);
 
 

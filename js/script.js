@@ -12,16 +12,16 @@ function hidePreloader() {
 
 function enableClick(child){
 	$('.menu_inner li:nth-child('+child+')>img').animate({"left":"-25px",opacity:1});
-	$('.menu_inner li:nth-child('+child+') a').animate({"margin-left":"30px",opacity:1});
-	$('.menu_inner li:nth-child('+child+') a').delay(50000).css('background','#619CD8');
+	$('.menu_inner li:nth-child('+child+')>a').animate({left:"20px",opacity:1});
+	setTimeout(function(){$('.menu_inner li:nth-child('+child+')>a').css('background','#619CD8');},300)
+	
 	
 }
-function disableClick(){
-	for(var i=0;i<6;i++)
-		{
-	$('.menu_inner li:nth-child('+i+')>img').animate({"left":"0px",opacity:0});
-	$('.menu_inner li:nth-child('+i+') a').animate({"margin-left":"0px",opacity:1});
-	$('.menu_inner li:nth-child('+i+') a').css('background','white');
+function disableClick(child){
 	
-		}
+			$('.menu_inner li img').animate({"left":"0px",opacity:0});
+			$('.menu_inner li a').animate({left:"0px"});
+			$('.menu_inner li a').css('background','white');
+	
+
 }
