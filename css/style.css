@@ -189,5 +189,14 @@ left: 0px;
 opacity:0;
 }
 
-
+.box{
+position: absolute;
+width: 38%;
+text-align: justify;
+background: white;
+padding: 50px 80px;
+right: -720px;
+top: 140px;
+opacity:0;
+}
 

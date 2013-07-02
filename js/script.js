@@ -13,14 +13,21 @@ function hidePreloader() {
 function enableClick(child){
 	$('.menu_inner li:nth-child('+child+')>img').animate({"left":"-25px",opacity:1});
 	$('.menu_inner li:nth-child('+child+')>a').animate({left:"20px",opacity:1});
-	setTimeout(function(){$('.menu_inner li:nth-child('+child+')>a').css('background','#619CD8');},300)
+	$('#box'+child+'').animate({right:"0px",opacity:1},600);
+
+	setTimeout(function(){$('.menu_inner li:nth-child('+child+')>a').css('background','#619CD8');},300);
 	
 	
 }
+function closeBox()
+{
+	$('.box').animate({right:"-720px",opacity:0},800);
+	}
 function disableClick(child){
 	
 			$('.menu_inner li img').animate({"left":"0px",opacity:0});
 			$('.menu_inner li a').animate({left:"0px"});
+			$('#box'+child+'').animate({right:"-720px",opacity:0});
 			$('.menu_inner li a').css('background','white');
 	
 
