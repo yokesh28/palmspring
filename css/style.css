@@ -199,4 +199,13 @@ right: -720px;
 top: 140px;
 opacity:0;
 }
+.close{
+position: absolute;
+right: 44%;
+top: 254px;
+z-index: 2;
+}
+.close{
+	cursor: pointer;
+}
 
