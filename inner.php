@@ -47,8 +47,9 @@
 		
 
 		<?php include 'header_inner.php';?>
-<<<<<<< HEAD
+		<img src="img/close.png" alt="close" class="close">
 		<div class="box" id="box1">
+		
 		<h2>Overview </h2>
 		<p>Lorem Ipsum is simply dummy text of the
 			printing and typesetting industry. Lorem Ipsum has been the
@@ -143,13 +144,18 @@ $('.menu_inner li:nth-child(1)>img').animate({"left":"-25px",opacity:1});
 $('.menu_inner li:nth-child(1)>a').animate({left:"20px",opacity:1});
 $('#box1').animate({right:"0px",opacity:1},900);
 
+$('.close').click(function(){
+	closeBox();
+	disableClick();
+});
+
 setTimeout(function(){$('.menu_inner li:nth-child(1)>a').css('background','#619CD8');},300);
 
 $('.menu_inner li').click(function(){
 //$(this).css('background','url("img/amites-button.png")');
 var child=$(this).index()+1;
 closeBox();
-disableClick(child);
+disableClick();
 enableClick(child);
 
 
