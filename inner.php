@@ -145,6 +145,8 @@ $('.menu_inner li:nth-child(1)>a').animate({left:"20px",opacity:1});
 $('#box1').animate({right:"0px",opacity:1},900);
 
 $('.close').click(function(){
+	$('.close').css({'opacity':'0'});
+
 	closeBox();
 	disableClick();
 });
