@@ -209,3 +209,31 @@ z-index: 2;
 	cursor: pointer;
 }
 
+li:nth-child(1) a.backcolor {
+	background: #619cd8 !important;
+}
+
+li:nth-child(2) a.backcolor {
+	background: #81a63f !important;
+}
+
+li:nth-child(3) a.backcolor {
+	background: #2eb8ba !important;
+}
+li:nth-child(4) a.backcolor {
+	background: #fa7a79 !important;
+}
+
+li:nth-child(5) a.backcolor {
+	background: #a266ac !important;
+}
+
+li:nth-child(6) a.backcolor {
+	background: #e6913e !important;
+}
+
+li:nth-child(7) a.backcolor {
+	background: #fea802 !important;
+}
+
+

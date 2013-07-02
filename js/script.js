@@ -15,7 +15,10 @@ function enableClick(child){
 	$('.menu_inner li:nth-child('+child+')>a').animate({left:"20px",opacity:1});
 	$('#box'+child+'').animate({right:"0px",opacity:1},300);
 	
-	setTimeout(function(){$('.menu_inner li:nth-child('+child+')>a').css('background','#619CD8');},300);
+	setTimeout(function(){
+		$('.menu_inner li:nth-child('+child+')>a').css({'color':'white'});
+		$('.menu_inner li:nth-child('+child+')>a').addClass('backcolor');
+	},300);
 	$('.close').animate({opacity:1},2000);
 	
 	
@@ -32,7 +35,8 @@ function disableClick(){
 			$('.menu_inner li img').animate({"left":"0px",opacity:0});
 			$('.menu_inner li a').animate({left:"0px"});
 			$('.box').animate({right:"-720px",opacity:0});
-			$('.menu_inner li a').css('background','white');
+			$('.menu_inner li a').css({'background':'white','color':'black'});
+			$('.menu_inner li a').removeClass('backcolor');
 	
 
 }
