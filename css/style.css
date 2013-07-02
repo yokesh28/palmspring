@@ -185,19 +185,8 @@ header .logo_bg .logo {
 position: absolute;
 top: -16px;
 left: 0px;
-opacity:0.8;
+opacity:0;
 }
-/*amenties*/
 
-.box7 {
-position: absolute;
 
-background: url("../menulist/color.png") repeat;
-width: 502px;
-text-align: justify;
-height: 155px;
-overflow-y: hidden;
-padding: 50px;
-overflow-x: hidden;
-opacity: 0.8;
-}
+
