@@ -19,13 +19,13 @@
 
 		<div class="wrapper">
 			<ul>
-				<li>Overview</li>
-				<li>Amenities</li>
-				<li>Location</li>
-				<li>Specifications</li>
-				<li>Gallery</li>
-				<li>Downloads</li>
-				<li>Contact us</li>
+				<li onclick="location.href='inner.php'">Overview</li>
+				<li onclick="location.href='inner.php'">Amenities</li>
+				<li onclick="location.href='inner.php'">Location</li>
+				<li onclick="location.href='inner.php'">Specifications</li>
+				<li onclick="location.href='inner.php'">Gallery</li>
+				<li onclick="location.href='inner.php'">Downloads</li>
+				<li onclick="location.href='inner.php'">Contact us</li>
 			</ul>
 		</div>
 		<div class="colors">
