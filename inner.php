@@ -150,7 +150,7 @@ kind of delight that will continually enthrall you for a lifetime to come. </p><
 $('.menu_inner li:nth-child(1)>img').animate({"left":"-25px",opacity:1});
 $('.menu_inner li:nth-child(1)>a').animate({left:"20px",opacity:1});
 $('#box1').animate({right:"0px",opacity:1},900);
-
+$('.menu_inner li:nth-child(1)').animate({"margin-left":"60px"});
 $('.close').click(function(){
 	$('.close').css({'opacity':'0'});
 
@@ -158,7 +158,10 @@ $('.close').click(function(){
 	disableClick();
 });
 
-setTimeout(function(){$('.menu_inner li:nth-child(1)>a').css({'background':'#619cd8','color':'white'});},300);
+setTimeout(function(){
+$('.menu_inner li:nth-child(1)>a').css({'color':'white'});
+$('.menu_inner li:nth-child(1)>a').addClass('backcolor');
+},300);
 
 $('.menu_inner li').click(function(){
 //$(this).css('background','url("img/amites-button.png")');

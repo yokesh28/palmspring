@@ -11,6 +11,8 @@ function hidePreloader() {
 }
 
 function enableClick(child){
+	$('.menu_inner li:nth-child('+child+')').animate({"margin-left":"60px"});
+	
 	$('.menu_inner li:nth-child('+child+')>img').animate({"left":"-25px",opacity:1});
 	$('.menu_inner li:nth-child('+child+')>a').animate({left:"20px",opacity:1});
 	$('#box'+child+'').animate({right:"0px",opacity:1},300);
@@ -31,7 +33,8 @@ function closeBox()
 	
 	}
 function disableClick(){
-	
+		$('.menu_inner li').animate({"margin-left":"0px"});
+		
 			$('.menu_inner li img').animate({"left":"0px",opacity:0});
 			$('.menu_inner li a').animate({left:"0px"});
 			$('.box').animate({right:"-720px",opacity:0});
