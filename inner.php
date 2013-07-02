@@ -17,15 +17,22 @@
 
 		<?php include 'header_inner.php';?>
 
+
 	</div>
 </body>
 
 <script type="text/javascript">
 
-$('.menu_inner li:nth-child(2) ').click(function(){
+$('.menu_inner li').click(function(){
 //$(this).css('background','url("img/amites-button.png")');
+var child=$(this).index()+1;
+disableClick();
+enableClick(child);
+
+
 
 });
+
 
 
 $(".container img.hm_back").attr('src', 'img/inner2.jpg').load(function() {

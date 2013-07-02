@@ -160,20 +160,30 @@ header .logo_bg .logo {
 	letter-spacing: 2px;
 	margin: 30px 0px;
 	cursor: pointer;
+	position: relative;
 }
+.menu_inner li:nth-child(2) a {
+	
 
+
+
+
+	}
 .menu_inner a {
 	text-decoration: none;
 	color: black;
 }
 
-.menu_inner a:VISITED {
+.menu_inner a {
 	text-decoration: none;
 	color: black;
+	padding:10px 30px;
+	
 }
 
 .menu_inner img {
-
-	
-}
+position: absolute;
+top: -16px;
+left: 0px;
+opacity:0;
 }

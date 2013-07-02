@@ -5,12 +5,12 @@
 		</div>
 	</div>
 	<ul class="menu_inner">
-		<li>Overview</li>
+		<li><img src="img/arrow-button.png" ><a href="#">Overview</a></li>
 		<li><img src="img/arrow-button.png" ><a href="#">Amenities</a></li>
-		<li>Location</li>
-		<li>Specifications</li>
-		<li>Gallery</li>
-		<li>Downloads</li>
-		<li>Contact us</li>
+		<li><img src="img/arrow-button.png" ><a href="#">Location</a></li>
+		<li><img src="img/arrow-button.png" ><a href="#">Specifications</a></li>
+		<li><img src="img/arrow-button.png" ><a href="#">Gallery</a></li>
+		<li><img src="img/arrow-button.png" ><a href="#">Downloads</a></li>
+		<li><img src="img/arrow-button.png" ><a href="#">Contact us</a></li>
 	</ul>
 </header>
