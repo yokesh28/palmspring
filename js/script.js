@@ -11,7 +11,7 @@ function hidePreloader() {
 }
 
 function enableClick(child){
-	$('.menu_inner li:nth-child('+child+')').animate({"margin-left":"60px"});
+	$('.menu_inner li:nth-child('+child+')').animate({"margin-left":"28px"});
 	
 	$('.menu_inner li:nth-child('+child+')>img').animate({"left":"-25px",opacity:1});
 	$('.menu_inner li:nth-child('+child+')>a').animate({left:"20px",opacity:1});
