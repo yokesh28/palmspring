@@ -7,23 +7,23 @@
 }
 
 html {
-	
 	height: 100%;
 	font-family: champa;
 }
 
 body {
 	overflow-x: hidden;
-overflow-y: hidden;
+	overflow-y: hidden;
 	min-height: 100%;
 }
+
 ::-webkit-scrollbar {
 	width: 12px;
 }
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
 	background: #5cc7D1;
-} 
+}
 
 body,a,img,div,span,ul,li {
 	list-style: none;
@@ -160,8 +160,7 @@ header .logo_bg .logo {
 }
 
 .menu_inner {
-margin-left: 16px;
-
+	margin-left: 16px;
 }
 
 .menu_inner li {
@@ -173,7 +172,6 @@ margin-left: 16px;
 	margin: 30px 0px;
 	cursor: pointer;
 	position: relative;
-	
 }
 
 .menu_inner li:nth-child(2) a {
@@ -240,26 +238,24 @@ margin-left: 16px;
 }
 
 li:nth-child(1) a.backcolor {
-	background: url(../img/1_m.png) no-repeat 104% -10px #619cd8 !important;
-width:58% !important;
-	
+	background: #81a63f !important;
 }
 
 li:nth-child(2) a.backcolor {
-	background: #81a63f !important;
-	
+	background: url(../img/1_m.png) no-repeat 104% -10px #619cd8 !important;
+	width: 58% !important;
 }
 
 li:nth-child(3) a.backcolor {
-	background: #2eb8ba !important;
+	background: url(../img/specification.png) no-repeat #2eb8ba !important;
 }
 
 li:nth-child(4) a.backcolor {
-	background: #fa7a79 !important;
+	background: url(../img/gallery-icon.png) no-repeat #fa7a79 !important;
 }
 
 li:nth-child(5) a.backcolor {
-	background: #a266ac !important;
+	background:url(../img/gallery-icon.png) no-repeat #a266ac !important;
 }
 
 li:nth-child(6) a.backcolor {
@@ -270,33 +266,35 @@ li:nth-child(7) a.backcolor {
 	background: #fea802 !important;
 }
 
-
-
-
 .i6 img {
 	top: 44px;
 }
+
 .i7 img {
 	top: 44px;
 }
+
 .i8 img {
 	top: 44px;
 }
+
 .i9 img {
 	top: 44px;
 }
+
 .i10 img {
 	top: 44px;
 }
+
 .i11 img {
 	top: 44px;
 }
 
-.box9 ul{
-	
+.box9 ul {
 	width: 600px;
-margin: 0 auto !important;
+	margin: 0 auto !important;
 }
+
 .box9 li {
 	list-style: none;
 	float: left;
@@ -304,8 +302,7 @@ margin: 0 auto !important;
 
 .box9 li img {
 	margin-left: 50px;
-border-radius: 10px;
-border: 3px solid #5CC7D1;
+	border-radius: 10px;
+	border: 3px solid #5CC7D1;
 	margin-top: 48px;
 }
-
