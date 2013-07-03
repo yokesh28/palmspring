@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="css/supersized.css" type="text/css"
 	media="screen" />
 
-
+<script src="js/lightbox.js"></script>
+<link href="css/lightbox.css" rel="stylesheet" />
 
 <script src="js/jquery-1.10.1.min.js"></script>
 
@@ -103,18 +104,35 @@ kind of delight that will continually enthrall you for a lifetime to come. </p><
 			containing Lorem Ipsum passages, and more recently with desktop
 			publishing software like Aldus PageMaker including versions of Lorem
 			Ipsum.</p></div>
-					<div class="box" id="box5">
+					<div class="box box9" id="box5">
 		<h2>Gallery</h2>
-		<p>Lorem Ipsum is simply dummy text of the
-			printing and typesetting industry. Lorem Ipsum has been the
-			industry's standard dummy text ever since the 1500s, when an unknown
-			printer took a galley of type and scrambled it to make a type
-			specimen book. It has survived not only five centuries, but also the
-			leap into electronic typesetting, remaining essentially unchanged. It
-			was popularised in the 1960s with the release of Letraset sheets
-			containing Lorem Ipsum passages, and more recently with desktop
-			publishing software like Aldus PageMaker including versions of Lorem
-			Ipsum.</p></div>
+		
+
+
+			
+			<ul>
+
+				
+					<li class="i6"><a href="gallery/1.jpg"
+					rel="lightbox[roadtrip]"><img src="gallery/1-1.jpg"></a></li>
+					<li class="i7"><a href="gallery/2.jpg"
+					rel="lightbox[roadtrip]"><img src="gallery/2-2.jpg"></a></li>
+					<li class="i8"><a href="gallery/3.jpg"
+					rel="lightbox[roadtrip]"><img src="gallery/3-3.jpg"></a></li>
+					<li class="i9"><a href="gallery/4.jpg"
+					rel="lightbox[roadtrip]"><img src="gallery/4-4.jpg"></a></li>
+					<li class="i10"><a href="gallery/5.jpg"
+					rel="lightbox[roadtrip]"><img src="gallery/5-5.jpg"></a></li>
+					<li class="i11"><a href="gallery/6.jpg"
+					rel="lightbox[roadtrip]"><img src="gallery/6-6.jpg"></a></li>
+					
+
+			</ul>
+
+
+
+
+		</div></div>
 					<div class="box" id="box6">
 		<h2>Downloads</h2>
 		<p>Lorem Ipsum is simply dummy text of the

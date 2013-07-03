@@ -7,15 +7,26 @@
 }
 
 html {
+	
 	height: 100%;
 	font-family: champa;
 }
 
 body {
+	overflow-x: hidden;
+overflow-y: hidden;
 	min-height: 100%;
 }
+::-webkit-scrollbar {
+	width: 12px;
+}
+/* the new scrollbar will have a flat appearance with the set background color */
+::-webkit-scrollbar-thumb {
+	background: #5cc7D1;
+} 
 
 body,a,img,div,span,ul,li {
+	list-style: none;
 	margin: 0px;
 	padding: 0px;
 }
@@ -196,6 +207,7 @@ margin-left: 16px;
 	text-align: justify;
 	background: white;
 	padding: 50px 80px;
+	overflow-y: scroll;
 	right: -720px;
 	top: 140px;
 	opacity: 0;
@@ -257,3 +269,43 @@ li:nth-child(6) a.backcolor {
 li:nth-child(7) a.backcolor {
 	background: #fea802 !important;
 }
+
+
+
+
+.i6 img {
+	top: 44px;
+}
+.i7 img {
+	top: 44px;
+}
+.i8 img {
+	top: 44px;
+}
+.i9 img {
+	top: 44px;
+}
+.i10 img {
+	top: 44px;
+}
+.i11 img {
+	top: 44px;
+}
+
+.box9 ul{
+	
+	width: 600px;
+margin: 0 auto !important;
+}
+.box9 li {
+	list-style: none;
+	float: left;
+}
+
+.box9 li img {
+	margin-left: 50px;
+border-radius: 10px;
+border: 3px solid #5CC7D1;
+	margin-top: 48px;
+}
+

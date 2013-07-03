@@ -10,7 +10,7 @@
 		<li><img src="img/arrow-button.png" ><a href="#">Location</a></li>
 		<li><img src="img/arrow-button.png" ><a href="#">Specifications</a></li>
 		<li><img src="img/arrow-button.png" ><a href="#">Gallery</a></li>
-		<li><img src="img/arrow-button.png" ><a href="#">Downloads</a></li>
+		<li><img src="img/arrow-button.png" ><a href="#">Floor plans</a></li>
 		<li><img src="img/arrow-button.png" ><a href="#">Contact us</a></li>
 	</ul>
 </header>

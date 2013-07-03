@@ -24,7 +24,7 @@
 				<li onclick="location.href='inner.php'">Location</li>
 				<li onclick="location.href='inner.php'">Specifications</li>
 				<li onclick="location.href='inner.php'">Gallery</li>
-				<li onclick="location.href='inner.php'">Downloads</li>
+				<li onclick="location.href='inner.php'">Floor plans</li>
 				<li onclick="location.href='inner.php'">Contact us</li>
 			</ul>
 		</div>
