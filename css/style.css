@@ -244,36 +244,36 @@ header .logo_bg .logo {
 }
 
 li:nth-child(1) a.backcolor {
-	background: url(../img/1_m.png) no-repeat 100px -8px  #81a63f !important;
+	background: url(../img/1_m.png) no-repeat 100px -8px  #b0b1b3 !important;
 	min-width: 150px !important;
 }
 
 li:nth-child(2) a.backcolor {
-	background: url(../img/1_m.png) no-repeat 100px -8px #619cd8 !important;
+	background: url(../img/1_m.png) no-repeat 100px -8px #1caecf !important;
 	min-width: 150px !important;
 }
 
 li:nth-child(3) a.backcolor {
-	background: url(../img/specification.png) no-repeat 105px -8px #2eb8ba !important;
+	background: url(../img/specification.png) no-repeat 105px -8px #a8651f !important;
 	min-width: 157px !important;
 }
 
 li:nth-child(4) a.backcolor {
-	background: url(../img/gallery-icon.png) no-repeat  150px -8px #fa7a79 !important;
+	background: url(../img/gallery-icon.png) no-repeat  150px -8px #845743 !important;
 }
 
 li:nth-child(5) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  100px -8px #a266ac !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  100px -8px #216db4 !important;
 	min-width: 150px !important;
 }
 
 li:nth-child(6) a.backcolor {
-	background: url(../img/floor-plan-icon.png) no-repeat 130px -8px #e6913e !important;
+	background: url(../img/floor-plan-icon.png) no-repeat 130px -8px #619cd8 !important;
 	min-width: 190px !important;
 }
 
 li:nth-child(7) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  130px -8px #fea802 !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  130px -8px #7fca44 !important;
 	min-width: 184px !important;
 }
 
