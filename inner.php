@@ -234,7 +234,7 @@ Security systems.</p>
 $('.menu_inner li:nth-child(1)>img').animate({"left":"-25px",opacity:1});
 $('.menu_inner li:nth-child(1)>a').animate({left:"20px",opacity:1});
 $('#box1').animate({right:"0px",opacity:0.9},900);
-$('.menu_inner li:nth-child(1)').animate({"margin-left":"60px"});
+$('.menu_inner li:nth-child(1)').animate({"margin-left":"28px"});
 $('.close').click(function(){
 	$('.close').css({'opacity':'0'});
 
