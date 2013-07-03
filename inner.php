@@ -84,16 +84,7 @@ Palm Springs, you can be sure you would be indulging in a
 kind of delight that will continually enthrall you for a lifetime to come. </p></div>
 					<div class="box" id="box3">
 		<h2>Location</h2>
-		<p>Lorem Ipsum is simply dummy text of the
-			printing and typesetting industry. Lorem Ipsum has been the
-			industry's standard dummy text ever since the 1500s, when an unknown
-			printer took a galley of type and scrambled it to make a type
-			specimen book. It has survived not only five centuries, but also the
-			leap into electronic typesetting, remaining essentially unchanged. It
-			was popularised in the 1960s with the release of Letraset sheets
-			containing Lorem Ipsum passages, and more recently with desktop
-			publishing software like Aldus PageMaker including versions of Lorem
-			Ipsum.</p></div>
+		<img width=" 600px;" src="gallery/loc.jpg"></div>
 					<div class="box" id="box4">
 		<h2>Specifications</h2>
 		<h4>Structure</h4>
