@@ -260,15 +260,15 @@ li:nth-child(4) a.backcolor {
 }
 
 li:nth-child(5) a.backcolor {
-	background:url(../img/gallery-icon.png) no-repeat #a266ac !important;
+	background:url(../img/floor-plan-icon.png) no-repeat #a266ac !important;
 }
 
 li:nth-child(6) a.backcolor {
-	background: #e6913e !important;
+	background: url(../img/floor-plan-icon.png) no-repeat #e6913e !important;
 }
 
 li:nth-child(7) a.backcolor {
-	background: #fea802 !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  #fea802 !important;
 }
 
 

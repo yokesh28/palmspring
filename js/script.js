@@ -15,7 +15,7 @@ function enableClick(child){
 	
 	$('.menu_inner li:nth-child('+child+')>img').animate({"left":"-25px",opacity:1});
 	$('.menu_inner li:nth-child('+child+')>a').animate({left:"20px",opacity:1});
-	$('#box'+child+'').animate({right:"0px",opacity:0},300);
+	$('#box'+child+'').animate({right:"0px",opacity:0.9},300);
 	
 	setTimeout(function(){
 		$('.menu_inner li:nth-child('+child+')>a').css({'color':'white'});
