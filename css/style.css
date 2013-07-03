@@ -252,23 +252,23 @@ li:nth-child(2) a.backcolor {
 }
 
 li:nth-child(3) a.backcolor {
-	background: url(../img/specification.png) no-repeat #2eb8ba !important;
+	background: url(../img/specification.png) no-repeat 143px -8px #2eb8ba !important;
 }
 
 li:nth-child(4) a.backcolor {
-	background: url(../img/gallery-icon.png) no-repeat #fa7a79 !important;
+	background: url(../img/gallery-icon.png) no-repeat  177px -3px #fa7a79 !important;
 }
 
 li:nth-child(5) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat #a266ac !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  142px -9px #a266ac !important;
 }
 
 li:nth-child(6) a.backcolor {
-	background: url(../img/floor-plan-icon.png) no-repeat #e6913e !important;
+	background: url(../img/floor-plan-icon.png) no-repeat 142px -9px #e6913e !important;
 }
 
 li:nth-child(7) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  #fea802 !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  142px -9px #fea802 !important;
 }
 
 
