@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Palm Spring.....</title>
+<title>Palm Spring | mmrf</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/supersized.css" type="text/css"
