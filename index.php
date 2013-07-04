@@ -73,7 +73,7 @@ $(".wrapper li").hover( function () {
 	
 }, function () {
 	var child=$(this).index()+1;
-	$('.colors li:nth-child('+child+')').animate({"padding":"400px 0px"});
+	$('.colors li:nth-child('+child+')').animate({"padding":"600px 0px"});
 	
 	// $('.colors li:nth-child('+child+')').flippyReverse();
 
