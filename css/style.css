@@ -207,7 +207,7 @@ width: 275px;
 	width: 38%;
 	height:400px;
 	text-align: justify;
-	background: white;
+	background: url('../img/menu_bg.png');
 	padding: 50px 80px;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -244,7 +244,7 @@ width: 275px;
 }
 
 li:nth-child(1) a.backcolor {
-	background: url(../img/1_m.png) no-repeat 150px -8px  #b0b1b3 !important;
+	background: url(../img/overview.png) no-repeat 150px -8px  #b0b1b3 !important;
 
 }
 
@@ -254,16 +254,16 @@ li:nth-child(2) a.backcolor {
 }
 
 li:nth-child(3) a.backcolor {
-	background: url(../img/specification.png) no-repeat 150px -8px #a8651f !important;
+	background: url(../img/Location.png) no-repeat 150px -8px #a8651f !important;
 
 }
 
 li:nth-child(4) a.backcolor {
-	background: url(../img/gallery-icon.png) no-repeat  150px -8px #845743 !important;
+	background: url(../img/specification.png) no-repeat  150px -8px #845743 !important;
 }
 
 li:nth-child(5) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  150px -8px #216db4 !important;
+	background:url(../img/gallery-icon.png) no-repeat  150px -8px #216db4 !important;
 	
 }
 
@@ -412,7 +412,8 @@ margin: 0 auto !important;
 	cursor: pointer;
 	float: left;
 	border: 0px;
-	background: url("../menulist/send.png") no-repeat;
+	background: black;
+color: white;
 }
 
 .sendmessage {
