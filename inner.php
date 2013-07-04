@@ -202,20 +202,149 @@ Security systems.</p>
 					
 
 			</ul></div>
+							
+							
+							
+							
 								<div class="box" id="box7">
-		<h2>Contact us</h2>
-		<p>Lorem Ipsum is simply dummy text of the
-			printing and typesetting industry. Lorem Ipsum has been the
-			industry's standard dummy text ever since the 1500s, when an unknown
-			printer took a galley of type and scrambled it to make a type
-			specimen book. It has survived not only five centuries, but also the
-			leap into electronic typesetting, remaining essentially unchanged. It
-			was popularised in the 1960s with the release of Letraset sheets
-			containing Lorem Ipsum passages, and more recently with desktop
-			publishing software like Aldus PageMaker including versions of Lorem
-			Ipsum.</p></div>
+		<h2>Contact</h2>
+			<div id="contactForm">
+				<img class="exit1" src="menulist/cls.png">
+				<form class="contactForm" name="cform" id="c_form"
+					onSubmit="return validateForm();">
+
+					<div class="input_boxes">
 
 
+
+
+
+
+						<div class="alert">
+							<span class="name-missing">Name-missing</span>
+						</div>
+						<div id="inp_box">
+							<label>Name:</label> <input id="name" type="text" value=""
+								name="name" onblur="clearText(this)" onfocus="clearText(this)" />
+						</div>
+						<!--inp box-->
+
+
+						<div class="alert">
+							<span class="email-missing">Email-missing</span>
+						</div>
+						<div id="inp_box">
+							<label>E-Mail:</label> <input id="e-mail" type="text" value=""
+								name="email" onblur="clearText(this)" onfocus="clearText(this)" />
+						</div>
+						<!--inp box-->
+
+						<div class="alert">
+							<span class="phone-missing">Phone-missing </span>
+						</div>
+						<div id="inp_box">
+							<label>Phone:</label> <input id="phone" type="text" value=""
+								name="phone" onblur="clearText(this)" onfocus="clearText(this)" />
+						</div>
+						<!--inp box-->
+
+						<div class="alert">
+							<span class="message-missing"></span>
+						</div>
+						<div id="msg_box">
+							<label>Message</label>
+							<textarea id="message" rows="" cols="" name="message"
+								onblur="clearText(this)" onfocus="clearText(this)"></textarea>
+						</div>
+						<!--msg box-->
+						<input class="sendmessage" type="submit" name="submit"
+							value="Send Messsage"> <span id="response"
+							style="color: black"></span>
+					</div>
+					<!--input boxes-->
+
+
+				</form>
+			</div>
+			<!--contact form--></div>
+
+<script type="text/javascript">
+function validateForm()
+{
+	
+
+var contactname=document.forms["cform"]["name"].value;
+var contactemail=document.forms["cform"]["email"].value;
+var atpos=contactemail.indexOf("@");
+
+var dotpos=contactemail.lastIndexOf(".");
+var filter2 = /^([0-9])+$/;
+
+var contactmobile=document.forms["cform"]["phone"].value;
+
+
+if (contactname==null ||contactname=="") {
+	$('.name-missing').fadeIn(400);
+} else {
+	$('.name-missing').hide();
+}
+
+
+
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=contactemail.length) {
+	$('.email-missing').fadeIn(400);
+} else {
+	$('.email-missing').hide();
+}
+
+
+if (!filter2.test(contactmobile.value)) {
+	
+	$('.phone-missing').fadeIn(400);
+
+
+} else {
+$('.phone-missing').hide();
+}
+
+
+
+if(isNaN(contactmobile)|| contactmobile.indexOf(" ")!=-1)
+{
+	$('.phone-missing').fadeIn(400);
+}else {
+	$('.phone-missing').hide();
+	}
+ if (contactmobile.length > 10 || contactmobile.length < 10 )
+		{
+	 $('.phone-missing').fadeIn(400);
+		}
+ else {
+		$('.phone-missing').hide();
+		}
+
+
+
+
+	  
+  
+$.ajax({
+	type : "post",
+	url : "mail2.php",
+	cache : false,
+	data : $('#c_form').serialize(),
+	success : function(json) {
+			$('#response').html(json);
+		
+
+	
+	},
+	
+});
+
+return false;
+}
+</script>
 
 
 </body>
