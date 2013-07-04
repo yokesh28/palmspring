@@ -351,6 +351,74 @@ margin: 0 auto !important;
 	
 	width:200px;
 }
+/*contact page */
+
+
+#contactForm .alert {
+	width: 20%;
+	height: 13px;
+	padding-bottom: 4px;
+	padding-top: 10px;
+	padding-left: 30px;
+	background: none;
+	border: none;
+	color: red;
+}
+
+.exit1 {
+	position: absolute;
+	left: 418px;
+	top: 3%;
+}
+
+#msg_box {
+	width: 410px;
+	height: 78px;
+	background-image: url(../images/form_msg.png);
+	background-repeat: no-repeat;
+}
+
+.input_boxes {
+	width: 434px;
+	padding: 10px 50px;
+	display: inline-block;
+}
+
+#contactForm textarea {
+	height: 75px;
+	font-family: Verdana, Geneva, sans-serif;
+	width: 290px;
+	padding-left: 10px;
+}
+
+#contactForm textarea,#contactForm input {
+	width: 209px;
+	color: #514c4b;
+	padding-left: 77px;
+	height: 44px;
+	font-size: 11px;
+	background-color: transparent;
+	outline: none;
+}
+
+#contactForm span {
+	display: none;
+	font-size: 9px;
+	color: #FF0000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#contactForm .sendmessage {
+	cursor: pointer;
+	float: left;
+	border: 0px;
+	background: url("../menulist/send.png") no-repeat;
+}
+
+.sendmessage {
+	width: 123px !important;
+	padding-left: 0px !important;
+}
 
 
 
