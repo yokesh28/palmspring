@@ -23,7 +23,7 @@ body {
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
 
-	background: white;
+	background: black;
 } 
 
 
@@ -244,18 +244,18 @@ width: 275px;
 }
 
 li:nth-child(1) a.backcolor {
-	background: url(../img/1_m.png) no-repeat 100px -8px  #b0b1b3 !important;
-	min-width: 150px !important;
+	background: url(../img/1_m.png) no-repeat 150px -8px  #b0b1b3 !important;
+
 }
 
 li:nth-child(2) a.backcolor {
-	background: url(../img/1_m.png) no-repeat 100px -8px #1caecf !important;
-	min-width: 150px !important;
+	background: url(../img/1_m.png) no-repeat 150px -8px #1caecf !important;
+	
 }
 
 li:nth-child(3) a.backcolor {
-	background: url(../img/specification.png) no-repeat 105px -8px #a8651f !important;
-	min-width: 157px !important;
+	background: url(../img/specification.png) no-repeat 150px -8px #a8651f !important;
+
 }
 
 li:nth-child(4) a.backcolor {
@@ -263,18 +263,18 @@ li:nth-child(4) a.backcolor {
 }
 
 li:nth-child(5) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  100px -8px #216db4 !important;
-	min-width: 150px !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  150px -8px #216db4 !important;
+	
 }
 
 li:nth-child(6) a.backcolor {
-	background: url(../img/floor-plan-icon.png) no-repeat 130px -8px #619cd8 !important;
-	min-width: 190px !important;
+	background: url(../img/floor-plan-icon.png) no-repeat 150px -8px #619cd8 !important;
+	
 }
 
 li:nth-child(7) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  130px -8px #7fca44 !important;
-	min-width: 184px !important;
+	background:url(../img/floor-plan-icon.png) no-repeat  150px -8px #7fca44 !important;
+	
 }
 
 
@@ -326,7 +326,7 @@ h4{
 
 .box9 li img {
 
-	margin-left: 28px;
+	
 
 	margin-top: 10px;
 }
