@@ -359,7 +359,7 @@ margin: 0 auto !important;
 	height: 13px;
 	padding-bottom: 4px;
 	padding-top: 10px;
-	padding-left: 30px;
+	padding-left: 84px;
 	background: none;
 	border: none;
 	color: red;
@@ -388,17 +388,16 @@ margin: 0 auto !important;
 	height: 75px;
 	font-family: Verdana, Geneva, sans-serif;
 	width: 290px;
-	padding-left: 10px;
+	padding: 10px;
 }
 
 #contactForm textarea,#contactForm input {
 	width: 209px;
 	color: #514c4b;
-	padding-left: 77px;
+	padding-left: 10px;
 	height: 44px;
 	font-size: 11px;
-	background-color: transparent;
-	outline: none;
+	border: 2px solid;
 }
 
 #contactForm span {
@@ -421,6 +420,9 @@ color: white;
 	padding-left: 0px !important;
 }
 
-
+.contactForm label{
+	width: 80px;
+display: inline-block;
+}
 
 
