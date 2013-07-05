@@ -88,7 +88,7 @@ header .logo_bg .logo {
 	list-style: none;
 	float: left;
 	background: url("../img/button.png");
-	width: 14.1%;
+	width: 14.15%;
 	text-align: center;
 	margin: 0px 1px;
 	color: white;
@@ -120,7 +120,7 @@ header .logo_bg .logo {
 	list-style: none;
 	float: left;
 	padding: 600px 0px;
-	width: 11.96%;
+	width: 12.01%;
 }
 
 .colors li:nth-child(1) {
