@@ -1,7 +1,18 @@
 @charset "UTF-8";
 
 @font-face {
-	font-family: champa;
+    font-family: 'champagne__limousinesregular';
+    src: url('../font/champagnelimousines-webfont.eot');
+    src: url('../font/champagnelimousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/champagnelimousines-webfont.woff') format('woff'),
+         url('../font/champagnelimousines-webfont.ttf') format('truetype'),
+         url('../font/champagnelimousines-webfont.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: champagne__limousinesregular;
 	src: url('../font/Champagne&Limousines.ttf');
 	/* url('Sansation_Light.eot');  IE9 */
 }
