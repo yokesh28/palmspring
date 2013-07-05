@@ -12,14 +12,14 @@
 
 }
 @font-face {
-	font-family: champagne__limousinesregular;
+	font-family: champa;
 	src: url('../font/Champagne&Limousines.ttf');
 	/* url('Sansation_Light.eot');  IE9 */
 }
 
 html {
 	height: 100%;
-	font-family: champa;
+	font-family: champagne__limousinesregular;
 }
 
 body {
