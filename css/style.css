@@ -39,7 +39,7 @@ header {
 	left: 0;
 	background: url("../img/menu_bg.png");
 	/* Preserve aspet ratio */
-	min-width: 254px;
+	min-width: 16%;
 	min-height: 100%;
 	left: -250px;
 	opacity: 0;
