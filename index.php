@@ -3,6 +3,7 @@
 <head>
 <title>MMRF | Palm Spring</title>
 <meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery-1.10.1.min.js"></script>
 <script src="js/script.js"></script>
