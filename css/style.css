@@ -94,6 +94,7 @@ header .logo_bg .logo {
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bolder;
+	letter-spacing: 2px;
 }
 
 .wrapper ul li:last-child {
