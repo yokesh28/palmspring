@@ -1,11 +1,11 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 @font-face {
 	font-family: champa;
 	src: url('../font/Champagne&Limousines.ttf');
 	/* url('Sansation_Light.eot');  IE9 */
 }
-
+ 
 html {
 	height: 100%;
 	font-family: champa;
