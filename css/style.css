@@ -426,14 +426,17 @@ h4 {
 
 .validate {
 	position: absolute;
-	bottom: 0;
-	margin: 0 12%;
+	bottom: 0%;
+	margin-left: 18%;
 	opacity: 0.6;
+}
+.validate img{
+	width: 44% !important;
 }
 
 .by {
 	position: absolute;
-	bottom: 7%;
+	bottom: 6%;
 	text-align: center;
 	width: 100%;
 	font-weight: bolder;
