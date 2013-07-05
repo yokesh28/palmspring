@@ -6,7 +6,7 @@
 		</div>
 	</div>
 	<div class="by">
-	Desinied by <a href="http://s-creative.me/" target="_blank">screative</a>
+	Designed by <a href="http://s-creative.me/" target="_blank">screative</a>
 	</div>
 	<div class="validate">
 	
