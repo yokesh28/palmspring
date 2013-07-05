@@ -5,4 +5,22 @@
 			</a>
 		</div>
 	</div>
+	<div class="by">
+	Desinied by <a href="http://s-creative.me/" target="_blank">screative</a>
+	</div>
+	<div class="validate">
+	
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+
+	</div>
 </header>

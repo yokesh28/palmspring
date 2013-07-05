@@ -52,9 +52,13 @@
 
 
 $(".wrapper li").hover( function () {
+
 	
 	var child=$(this).index()+1;
-	$('.colors li:nth-child('+child+')').flippy({
+
+	$('.colors li:nth-child('+child+')').animate({"padding":"0"},600);
+	
+/*	$('.colors li:nth-child('+child+')').flippy({
 	   
 	    direction:"TOP",
 	    duration:"750",
@@ -64,14 +68,15 @@ $(".wrapper li").hover( function () {
 		  },
 	  
 	    color_target:"none",
-	});
+	});*/
 
 
 	
 }, function () {
 	var child=$(this).index()+1;
-	old =child;
-	 $('.colors li:nth-child('+child+')').flippyReverse();
+	$('.colors li:nth-child('+child+')').animate({"padding":"600px 0px"},600);
+	
+	// $('.colors li:nth-child('+child+')').flippyReverse();
 
 	
 		
