@@ -418,3 +418,17 @@ h4 {
 	margin: 0 20px;
 	opacity: 0.6;
 }
+
+.by {
+	position: absolute;
+	bottom: 8%;
+	text-align: center;
+	width: 100%;
+	font-weight: bolder;
+}
+
+.by a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #1C82CB;
+}
