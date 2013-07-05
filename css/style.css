@@ -5,7 +5,7 @@
 	src: url('../font/Champagne&Limousines.ttf');
 	/* url('Sansation_Light.eot');  IE9 */
 }
- 
+
 html {
 	height: 100%;
 	font-family: champa;
@@ -22,10 +22,8 @@ body {
 }
 /* the new scrollbar will have a flat appearance with the set background color */
 ::-webkit-scrollbar-thumb {
-
 	background: black;
-} 
-
+}
 
 body,a,img,div,span,ul,li {
 	list-style: none;
@@ -157,7 +155,7 @@ header .logo_bg .logo {
 }
 
 .inner {
-width: 254px;
+	width: 254px;
 	background: white;
 }
 
@@ -205,7 +203,7 @@ width: 254px;
 .box {
 	position: absolute;
 	width: 38%;
-	height:400px;
+	height: 400px;
 	text-align: justify;
 	background: url('../img/menu_bg.png');
 	padding: 50px 80px;
@@ -213,7 +211,7 @@ width: 254px;
 	overflow-x: hidden;
 	right: -720px;
 	top: 140px;
-	opacity:0;
+	opacity: 0;
 	border-top-left-radius: 2em;
 	border-bottom-left-radius: 2em;
 	-moz-box-shadow: 0px 1px 14px #000000;
@@ -228,7 +226,7 @@ width: 254px;
 }
 
 .box p {
-	padding:20px;
+	padding: 20px;
 	line-height: 24px;
 }
 
@@ -244,49 +242,45 @@ width: 254px;
 }
 
 li:nth-child(1) a.backcolor {
-	background: url(../img/overview.png) no-repeat 132px -8px  #b0b1b3 !important;
-
+	background: url(../img/overview.png) no-repeat 132px -8px #b0b1b3
+		!important;
 }
 
 li:nth-child(2) a.backcolor {
 	background: url(../img/1_m.png) no-repeat 132px -8px #1caecf !important;
-	
 }
 
 li:nth-child(3) a.backcolor {
-	background: url(../img/Location.png) no-repeat 132px -8px #a8651f !important;
-
+	background: url(../img/Location.png) no-repeat 132px -8px #a8651f
+		!important;
 }
 
 li:nth-child(4) a.backcolor {
-	background: url(../img/specification.png) no-repeat  132px -8px #845743 !important;
+	background: url(../img/specification.png) no-repeat 132px -8px #845743
+		!important;
 }
 
 li:nth-child(5) a.backcolor {
-	background:url(../img/gallery-icon.png) no-repeat  132px -8px #216db4 !important;
-	
+	background: url(../img/gallery-icon.png) no-repeat 132px -8px #216db4
+		!important;
 }
 
 li:nth-child(6) a.backcolor {
-	background: url(../img/floor-plan-icon.png) no-repeat 132px -8px #619cd8 !important;
-	
+	background: url(../img/floor-plan-icon.png) no-repeat 132px -8px #619cd8
+		!important;
 }
 
 li:nth-child(7) a.backcolor {
-	background:url(../img/floor-plan-icon.png) no-repeat  132px -8px #7fca44 !important;
-	
+	background: url(../img/floor-plan-icon.png) no-repeat 132px -8px #7fca44
+		!important;
 }
-
 
 /*specification*/
-
-
-.sp_detail{
-	
+.sp_detail {
 	margin: 0px 20px;
 }
-h4{
-	
+
+h4 {
 	letter-spacing: 2px;
 }
 
@@ -325,18 +319,14 @@ h4{
 }
 
 .box9 li img {
-
-	
-
 	margin-top: 10px;
 }
 
-
-.box10 ul{
-	
+.box10 ul {
 	width: 600px;
-margin: 0 auto !important;
+	margin: 0 auto !important;
 }
+
 .box10 li {
 	list-style: none;
 	float: left;
@@ -344,16 +334,13 @@ margin: 0 auto !important;
 
 .box10 li img {
 	margin-left: 28px;
-
 	margin-top: 28px;
 }
-.box10 img{
-	
-	width:200px;
+
+.box10 img {
+	width: 200px;
 }
 /*contact page */
-
-
 #contactForm .alert {
 	width: 20%;
 	height: 13px;
@@ -412,7 +399,7 @@ margin: 0 auto !important;
 	float: left;
 	border: 0px;
 	background: black;
-color: white;
+	color: white;
 }
 
 .sendmessage {
@@ -420,9 +407,14 @@ color: white;
 	padding-left: 0px !important;
 }
 
-.contactForm label{
+.contactForm label {
 	width: 80px;
-display: inline-block;
+	display: inline-block;
 }
 
-
+.validate {
+	position: absolute;
+	bottom: 0;
+	margin: 0 20px;
+	opacity: 0.6;
+}
