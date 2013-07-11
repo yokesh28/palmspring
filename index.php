@@ -44,53 +44,16 @@
 
 	</div>
 </body>
-<script type="text/javascript" src="js/jquery.flippy.min.js"></script>
 <script type="text/javascript">
-
-
-
-
-
 $(".wrapper li").hover( function () {
-
-	
 	var child=$(this).index()+1;
-
 	$('.colors li:nth-child('+child+')').animate({"padding":"0"},600);
-	
-/*	$('.colors li:nth-child('+child+')').flippy({
-	   
-	    direction:"TOP",
-	    duration:"750",
-	    onStart:function(){
-
-			 // $('.colors li:nth-child('+child+')').addClass('effect');
-		  },
-	  
-	    color_target:"none",
-	});*/
-
-
 	
 }, function () {
 	var child=$(this).index()+1;
 	$('.colors li:nth-child('+child+')').animate({"padding":"600px 0px"},600);
 	
-	// $('.colors li:nth-child('+child+')').flippyReverse();
-
-	
-		
-		/* $('.colors li').each(function(){
-			$(this).flippyReverse();
-	}); */
-		
-	
-	
 });
-
-
-
-
 $(".container img.hm_back").attr('src', 'img/hp.jpg').load(function() {
  hidePreloader();
 
