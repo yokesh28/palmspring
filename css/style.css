@@ -1,16 +1,18 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'champagne__limousinesregular';
-    src: url('../font/champagnelimousines-webfont.eot');
-    src: url('../font/champagnelimousines-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/champagnelimousines-webfont.woff') format('woff'),
-         url('../font/champagnelimousines-webfont.ttf') format('truetype'),
-         url('../font/champagnelimousines-webfont.svg#champagne__limousinesregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'champagne__limousinesregular';
+	src: url('../font/champagnelimousines-webfont.eot');
+	src: url('../font/champagnelimousines-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../font/champagnelimousines-webfont.woff') format('woff'),
+		url('../font/champagnelimousines-webfont.ttf') format('truetype'),
+		url('../font/champagnelimousines-webfont.svg#champagne__limousinesregular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
 @font-face {
 	font-family: champa;
 	src: url('../font/Champagne&Limousines.ttf');
@@ -40,7 +42,7 @@ body,a,img,div,span,ul,li {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
-}  
+}
 
 header {
 	position: fixed;
@@ -181,7 +183,6 @@ header .logo_bg .logo {
 	font-weight: bold;
 	font-size: 14px;
 	letter-spacing: 2px;
-	
 	cursor: pointer;
 	position: relative;
 }
@@ -203,6 +204,8 @@ header .logo_bg .logo {
 	position: relative;
 	display: inline-block;
 	min-width: 180px;
+	letter-spacing: 0px;
+	font-size: 12px;
 }
 
 .menu_inner img {
@@ -430,7 +433,8 @@ h4 {
 	margin-left: 18%;
 	opacity: 0.6;
 }
-.validate img{
+
+.validate img {
 	width: 44% !important;
 }
 
